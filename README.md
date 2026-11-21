@@ -4,7 +4,7 @@ Website for **Fudo** (不動修行), an iPhone app for a daily steadiness practi
 
 Live at https://sona-orbit.github.io/fudo/
 
-- Nine languages: Traditional Chinese (default), Simplified Chinese, English, Japanese, Korean, Spanish, German, French, Brazilian Portuguese.
+- Ten languages: Traditional Chinese (default), Simplified Chinese, English, Japanese, Korean, Spanish, German, French, Brazilian Portuguese, Vietnamese.
 - Each language has a home page, `guide/`, `support/` and `privacy/`.
 - Plain static HTML and CSS. No build step is needed to host it.
 
