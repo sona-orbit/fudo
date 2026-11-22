@@ -144,6 +144,7 @@ h3{font-size:1.3125rem}
 .ph.ph-dark{background:var(--night-bg,#1F2540);color:#F4EDE2;border-color:transparent;position:relative;display:flex;flex-direction:column;align-items:center;gap:.9rem;padding:1.6rem 1.2rem}
 .ph-dark .ph-t{width:5.5rem}
 .ph-hint{font-size:.85rem;opacity:.85;text-align:center;line-height:1.6}
+.ph.ph-dark p,.ph.ph-night p,.ph.ph-night .ph-btns span{color:#F4EDE2}
 .ph-first .ph-t{filter:drop-shadow(0 0 18px rgba(246,181,68,.55))}
 .ph-ring{position:absolute;top:1.1rem;width:7.5rem;height:7.5rem;border-radius:50%;border:2px solid rgba(246,181,68,.6);animation:ring 2.4s ease-out infinite}
 @keyframes ring{0%{scale:.7;opacity:0}30%{opacity:1}100%{scale:1.15;opacity:0}}
