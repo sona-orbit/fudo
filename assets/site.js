@@ -251,7 +251,7 @@
   Array.prototype.forEach.call(document.querySelectorAll(".drift .bit"), function(b){
     b.addEventListener("click", function(){
       if (root.classList.contains("rite-on")) return;
-      b.classList.add("boop"); setTimeout(function(){ b.classList.remove("boop"); }, 260);
+      b.classList.add("boop"); setTimeout(function(){ b.classList.remove("boop"); }, 520);
     });
   });
 
