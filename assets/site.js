@@ -247,6 +247,14 @@
     reset();
   });
 
+  // ---- 背景的東西點了輕輕彈一下（John 11-22：「網站很多地方互動似乎都沒作用」）
+  Array.prototype.forEach.call(document.querySelectorAll(".drift .bit"), function(b){
+    b.addEventListener("click", function(){
+      if (root.classList.contains("rite-on")) return;
+      b.classList.add("boop"); setTimeout(function(){ b.classList.remove("boop"); }, 260);
+    });
+  });
+
   // ---- 開場（只有首頁、第一次來；html.rite-on 由 <head> 裡的小腳本加上）
   var replay = document.querySelectorAll(".replay");
   Array.prototype.forEach.call(replay, function(a){
